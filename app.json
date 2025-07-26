@@ -1,9 +1,35 @@
 {
   "expo": {
-    ...
+    "name": "numaengP",
+    "slug": "numaengP",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.b6521650556.numaengP"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.b6521650556.numaengP"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
     "extra": {
-      "GOOGLE_CLIENT_ID": "xxx-removed",
-      "GOOGLE_CLIENT_SECRET": "xxx-removed"
+      "eas": {
+        "projectId": "593d4176-d970-4f5b-8ae0-17cedf19776a"
+      }
     }
   }
 }
