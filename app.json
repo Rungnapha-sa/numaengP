@@ -1,0 +1,9 @@
+{
+  "expo": {
+    ...
+    "extra": {
+      "GOOGLE_CLIENT_ID": "xxx-removed",
+      "GOOGLE_CLIENT_SECRET": "xxx-removed"
+    }
+  }
+}
